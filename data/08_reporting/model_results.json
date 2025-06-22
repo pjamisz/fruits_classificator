@@ -1,0 +1,71 @@
+{
+  "test_accuracy": 1.0,
+  "test_balanced_accuracy": 1.0,
+  "label_map": {
+    "Banana": 0,
+    "Strawberry": 1,
+    "Watermelon": 2
+  },
+  "sample_predictions": [
+    {
+      "image": "data/01_raw/Banana/r_77_100.jpg",
+      "true_label": 0,
+      "true_fruit": "Banana",
+      "predicted_label": 0,
+      "predicted_fruit": "Banana",
+      "probabilities": [
+        1.0,
+        4.454661084452027e-09,
+        1.2441713458100079e-11
+      ]
+    },
+    {
+      "image": "data/01_raw/Strawberry/r_150_100.jpg",
+      "true_label": 1,
+      "true_fruit": "Strawberry",
+      "predicted_label": 1,
+      "predicted_fruit": "Strawberry",
+      "probabilities": [
+        7.049821988402982e-07,
+        0.9999991655349731,
+        1.0029716435155933e-07
+      ]
+    },
+    {
+      "image": "data/01_raw/Watermelon/r_26_100.jpg",
+      "true_label": 2,
+      "true_fruit": "Watermelon",
+      "predicted_label": 2,
+      "predicted_fruit": "Watermelon",
+      "probabilities": [
+        3.593329012119284e-08,
+        2.9264585421628908e-08,
+        0.9999998807907104
+      ]
+    },
+    {
+      "image": "data/01_raw/Watermelon/r_11_100.jpg",
+      "true_label": 2,
+      "true_fruit": "Watermelon",
+      "predicted_label": 2,
+      "predicted_fruit": "Watermelon",
+      "probabilities": [
+        5.6034692441642164e-09,
+        4.2412104050981725e-08,
+        1.0
+      ]
+    },
+    {
+      "image": "data/01_raw/Banana/80_100.jpg",
+      "true_label": 0,
+      "true_fruit": "Banana",
+      "predicted_label": 0,
+      "predicted_fruit": "Banana",
+      "probabilities": [
+        1.0,
+        2.0553480792329104e-12,
+        6.621935000339363e-09
+      ]
+    }
+  ]
+}
