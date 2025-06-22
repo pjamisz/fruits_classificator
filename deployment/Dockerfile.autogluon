@@ -1,0 +1,23 @@
+# Using AutoGluon 1.3.1 base image
+FROM autogluon/autogluon:1.3.1-cpu-ubuntu22.04
+
+WORKDIR /app
+
+# Install only API dependencies
+RUN pip install --no-cache-dir \
+    fastapi==0.104.1 \
+    uvicorn[standard]==0.24.0 \
+    python-multipart==0.0.6
+
+# Copy application
+COPY app.py .
+
+# Create temp directory
+RUN mkdir -p /tmp
+
+EXPOSE 8000
+
+ENV MODEL_PATH=/app/model
+ENV PORT=8000
+
+CMD ["python", "app.py"]

@@ -1,0 +1,17 @@
+# conf/base/parameters.yml
+
+data_processing:
+  raw_data_path: "data/01_raw"
+  selected_fruits:
+    - "Banana"
+    - "Strawberry"
+    - "Watermelon"
+  samples_per_class: null  # Use all available samples
+  train_split: 0.8  # 80% for training, 20% for testing
+
+modeling:
+  model_path: "data/06_models/automm_fruit_classifier"
+  use_existing_model: true
+  time_limit: 120  # seconds
+  presets: "medium_quality"  # Options: "best_quality", "high_quality", "medium_quality", "quick"
+  results_path: "data/08_reporting/model_results.json"
