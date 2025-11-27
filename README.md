@@ -2,7 +2,7 @@
 
 Project for PJATK University ASI course (Architektury rozwiązań i wdrożeń SI) 
 
-## Automatic fruits classification with AutoML methods
+Subject: Automatic fruits classification with AutoML methods
 
 ## Authors
 
